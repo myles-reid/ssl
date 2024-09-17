@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* It is a good practice to provide backup fonts in case the main one fails */
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {  /* DO NOT ADD ANYTHING HERE - ITS JOB IS TO CONTAIN ONLY */
+  width: min(100% - 32px, 1000px);
+  margin-inline: auto;
+}
