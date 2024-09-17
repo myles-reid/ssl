@@ -32,7 +32,7 @@ html {
 }
 
 .flex-between {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 /* ----------------------------------------------------------- */
 /* Hero Banner                                                 */
@@ -146,7 +146,6 @@ li + li {
 /* ----------------------------------------------------------- */
 
 section {
-
   h3 {
     margin-top: 30px;
     font-size: 26px;
@@ -159,4 +158,51 @@ section {
     font-weight: 400;
   }
 
+}
+
+.question, .text {
+  margin: 250px 0px;
+}
+
+.question {
+ background-color: #a6a6a6;
+ width: 250px;
+ height: 250px;
+ border-radius: 6px;
+ box-shadow: 0px 0px 40px 5px rgba(10,20,79,0.49);
+}
+
+.text {
+  width: 450px;
+  height: 250px;
+  padding: 15px;
+}
+
+/* If there is a better way to center text... I'd like to know */
+#ssl .question {
+  padding: 45px 30px;
+}
+
+#tls .question {
+  padding: 45px 40px;
+}
+
+.secure-1 .question {
+  padding: 40px 30px;
+}
+
+.secure-2 .question {
+  padding: 30px 30px;
+}
+
+#encription .question {
+  padding: 0px 30px;
+}
+
+#prefix .question {
+  padding: 0px 20px;
+}
+
+#certificate .question {
+  padding: 30px 30px;
 }
